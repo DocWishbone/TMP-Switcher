@@ -132,7 +132,7 @@ function Clear-TempFolder([string]$Path, [string[]]$AllowedPaths) {
 }
 
 $form = [System.Windows.Forms.Form]::new()
-$form.Text = 'TEMP / TMP Umschalter'
+$form.Text = 'TEMP / TMP Umschalter - 2026 docwishbone'
 $form.Size = [Drawing.Size]::new(650, 455)
 $form.StartPosition = 'CenterScreen'
 $form.FormBorderStyle = 'FixedDialog'
